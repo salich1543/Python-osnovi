@@ -1,6 +1,6 @@
 
-day_one = int(input('Сколько километров спортсмен пробежал в первый день: '))
-last_day = int(input('Каков желаемый результат: '))
+day_one = float(input('Сколько километров спортсмен пробежал в первый день: '))
+last_day = float(input('Каков желаемый результат: '))
 count = 1
 while day_one <= last_day:
     day_one *= 1.1
