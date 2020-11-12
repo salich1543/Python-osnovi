@@ -1,5 +1,5 @@
 
-n = (input('Введите число: '))
+n = float(input('Введите число: '))
 double = n * 2
 tripple = n * 3
 
